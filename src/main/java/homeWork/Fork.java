@@ -6,4 +6,9 @@ public class Fork {
     public Fork(Integer number){
         this.number = number;
     }
+
+    @Override
+    public String toString() {
+        return String.valueOf(number+1);
+    }
 }
